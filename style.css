@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*header bölümü*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav > a,
+nav > ul > li > a{
+    color: rgb(28, 83, 155);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav > ul{list-style: none;}
+nav > ul > li{float: left;}
+nav > ul > li > a{
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*main bölümü*/
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem;
+    
+    align-items: center;
+}
+section > figure > img{width: 600px; height: auto; border-radius: 25px;}
+section > article > h2 , h4{
+    font-size: 25px;
+    color:rgb(28, 83, 155);
+}
+
+/*footer bölümü*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+footer > ul{list-style: none;}
+footer > ul > li{float: left;}
+footer > ul > li > a{
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+footer > a,
+footer > ul > li > a{
+    color: rgb(28, 83, 155);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header > nav > a img{ 
+   
+    max-width: 150px;
+    height: auto;
+
+}
+#kutu{
+    color: rgb(28, 83, 155);
+    padding: 0.5rem;
+}
+
+#kutu:hover{
+    background-color:blue;
+    border-radius: 25px;
+}
